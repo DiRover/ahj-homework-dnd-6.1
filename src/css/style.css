@@ -1,0 +1,158 @@
+.container {
+    margin: 500px auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    outline: crimson solid 1px;
+}
+
+.box {
+    outline: springgreen solid 1px;
+    width: 200px;
+    
+}
+
+.box:first-child {
+    margin-right: 20px;
+}
+
+.box:last-child {
+    margin-left: 20px;
+}
+
+.box-title {
+    color: gray;
+}
+
+.add-btn {
+    cursor: pointer;
+}
+
+.btn-text {
+    color: blue;
+}
+
+.task-text {
+    width: 170px;
+    height: 100px;
+    background-color: green;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    color: mediumblue;
+}
+
+.msg {
+    font-size: 1rem;
+    color: red;
+}
+
+.close {
+    cursor: pointer;
+}
+
+[data-btn="add"] {
+    color: green;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.active {
+    visibility: visible;
+}
+
+/*.btn {
+    width: 250px;
+    height: 50px;
+    font-size: 1.25rem;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+}
+
+.btn:hover {
+    background-color: turquoise;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 4px rgba(225,83,97,.5);
+}
+
+.popover {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+    width: 150px;
+    border:  rgba(0, 0, 0, 1) 1px solid;
+    top: -100px;
+}
+
+.pop-title {
+    background-color: slategray;
+    width: 100%;
+    text-align: center;
+}
+
+.msg {
+    font-size: 1rem;
+    color:  rgba(0, 0, 0, 1);;
+    text-align: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.active {
+    visibility: visible;
+}
+
+.arrow {
+    position: absolute;
+    bottom: -9px;
+    box-sizing: border-box;
+    color: rgb(33, 37, 41);
+    height: 8px;
+    width: 16px;
+    margin: 0 4.8px;
+    border: black;
+}
+
+.arrow::before {
+    content: "";
+    position:absolute;
+    border-bottom: 0 solid rgba(65, 22, 22, 0);
+    border-left: 8px solid rgba(0, 0, 0, 0);
+    border-right: 8px solid rgba(0, 0, 0, 0);
+    border-top: 8px solid rgba(0, 0, 0, 1);
+    box-sizing: border-box;
+    height: 8px;
+    width: 16px;
+}
+
+.arrow::after {
+    content: "";
+    position:absolute;
+    border-bottom: 0 solid rgba(0, 0, 0, 0);
+    border-left: 8px solid rgba(0, 0, 0, 0);
+    border-right: 8px solid rgba(0, 0, 0, 0);
+    border-top: 8px solid rgb(255, 255, 255);
+    bottom: 1px;
+    box-sizing: border-box;
+    height: 8px;
+    width: 16px;
+}*/
+
