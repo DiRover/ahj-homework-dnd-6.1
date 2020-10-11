@@ -4,7 +4,8 @@ export default function buildTaskList(arr, containerTask) {
   arr.forEach((data) => {
     const elem = document.createElement('div');
     elem.classList.add('task');
-    elem.innerHTML = `<p class="text">${data}</p>`;
+    elem.setAttribute('data-task', 'task');
+    elem.innerHTML = `<p class="text">${data}</p><div class="close-task hidden" data-close="close">&#10006</div>`;
     containerTask.appendChild(elem);
   });
 }

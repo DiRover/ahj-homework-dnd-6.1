@@ -46,6 +46,8 @@
 
 .text {
     color: mediumblue;
+    white-space: normal;
+    word-break:break-all;
 }
 
 .msg {
@@ -61,6 +63,24 @@
     color: green;
 }
 
+.task {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: aqua;
+}
+
+.task.dragged {
+    position: absolute;;
+    z-index: 999;
+    pointer-events: none;
+}
+
+.close-task {
+    font-size: 0.8rem;
+    cursor: pointer;
+}
 
 .hidden {
     display: none;
